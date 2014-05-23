@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="msh9" modelUID="r:ca7552ea-c892-4c5b-b856-744cdc1cb050(NewLanguage.constraints)" version="-1" />
+      <model index="j047" modelUID="r:b728f2ad-56b1-4ff7-8e32-5c21bfb2a92c(NewLanguage.structure)" version="-1" />
+      <model index="hrdi" modelUID="r:37921ef6-bb12-4c7c-bdff-f980dc2ba2dc(NewLanguage.typesystem)" version="-1" />
+      <model index="tes4" modelUID="r:2ea782d3-c48d-416f-8ef0-44f7c476105f(NewLanguage.editor)" version="-1" />
+      <model index="6asc" modelUID="r:5ad0f24f-7a9d-40a3-bf9c-0acd674a4a3d(NewLanguage.generator.template.main@generator)" version="-1" />
+      <model index="mz3z" modelUID="r:0ec75cc6-9b0a-4912-9756-7efc2a739817(NewLanguage.behavior)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:b728f2ad-56b1-4ff7-8e32-5c21bfb2a92c(NewLanguage.structure)" newModel="r:b728f2ad-56b1-4ff7-8e32-5c21bfb2a92c(MVCLanguage.structure)" />
+    <RenameModel oldModel="r:2ea782d3-c48d-416f-8ef0-44f7c476105f(NewLanguage.editor)" newModel="r:2ea782d3-c48d-416f-8ef0-44f7c476105f(MVCLanguage.editor)" />
+    <RenameModel oldModel="r:ca7552ea-c892-4c5b-b856-744cdc1cb050(NewLanguage.constraints)" newModel="r:ca7552ea-c892-4c5b-b856-744cdc1cb050(MVCLanguage.constraints)" />
+    <RenameModel oldModel="r:0ec75cc6-9b0a-4912-9756-7efc2a739817(NewLanguage.behavior)" newModel="r:0ec75cc6-9b0a-4912-9756-7efc2a739817(MVCLanguage.behavior)" />
+    <RenameModel oldModel="r:37921ef6-bb12-4c7c-bdff-f980dc2ba2dc(NewLanguage.typesystem)" newModel="r:37921ef6-bb12-4c7c-bdff-f980dc2ba2dc(MVCLanguage.typesystem)" />
+    <RenameModel oldModel="r:5ad0f24f-7a9d-40a3-bf9c-0acd674a4a3d(NewLanguage.generator.template.main@generator)" newModel="r:5ad0f24f-7a9d-40a3-bf9c-0acd674a4a3d(MVCLanguage.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+

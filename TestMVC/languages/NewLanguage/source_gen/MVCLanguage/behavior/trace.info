@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="MVCLanguage.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="Button_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="MVCLanguage.behavior.Button_BehaviorDescriptor" />
+  <unitInfo fileName="Label_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="MVCLanguage.behavior.Label_BehaviorDescriptor" />
+  <unitInfo fileName="Text_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="MVCLanguage.behavior.Text_BehaviorDescriptor" />
+  <unitInfo fileName="View_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="MVCLanguage.behavior.View_BehaviorDescriptor" />
+  <unitInfo fileName="Visible_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="MVCLanguage.behavior.Visible_BehaviorDescriptor" />
+</debugInfo>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-37dqx2sud20hsn4il157t070z5wtk5s">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:5ad0f24f-7a9d-40a3-bf9c-0acd674a4a3d(MVCLanguage.generator.template.main@generator)" hash="e8hl50mdaabq3k16uz29io0htx18mbx" />
+  <common hash="-cfvy46q5x4y9cj4j1upx83atbx0u22g" />
+  <source id="4708323718293105487" name="Test" hash="2d0bzufc8q4oazgd7d6nf4i00tx3yzh">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:5ad0f24f-7a9d-40a3-bf9c-0acd674a4a3d(MVCLanguage.generator.template.main@generator)" />
+    <file name="Test.java" />
+  </source>
+</dependencies>
+
