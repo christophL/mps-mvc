@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="v22m" modelUID="r:32b8da0e-3348-4573-9315-fd1971bfff5a(NewLanguage.structure)" version="-1" />
+    </dependencies>
+    <rename id="v22m.5972941858948008933" type="CONCEPT" from="GUIButoon" to="GUIButton" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="v22m" modelUID="r:32b8da0e-3348-4573-9315-fd1971bfff5a(NewLanguage.structure)" version="0" />
+    </dependencies>
+    <rename id="v22m.3054252494167241341" type="CHILD" from="B" to="elements" />
+  </StructureModification>
+</history>
+

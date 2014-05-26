@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="4t70z2zyqje9x5ffsnl7b2yr1dox9mr">
+  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+  <common hash="-18zcojn1xpo1r2sxdzwkmdprotlb7ko">
+    <dep root="3054252494167242576" />
+    <dep root="3054252494167332735" />
+    <dep root="3054252494168911876" />
+    <dep root="3054252494168912077" />
+    <dep root="5972941858947234723" />
+    <dep root="7424277070660527756" />
+    <dep root="7424277070660527810" />
+    <dep root="7424277070660562584" />
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="5972941858947234723" name="GUI" hash="-dtbtns49lmnqt9mnh1dughbgjp7r0r7" />
+  <source id="7424277070660527756" name="Button" hash="-9fjophewi3arz218tb8xu36p70apxak" />
+  <source id="7424277070660527810" name="Label" hash="-4g2qukuwkcawh7l8l5ktd58oa5sdxp4" />
+  <source id="7424277070660562584" name="View" hash="5t1ddkycaw6i5zul0qmemf85405fh7k" />
+  <source id="3054252494167242576" name="GUIElement" hash="b70bs991lqwa9asmshxdhob0omqvjwy" />
+  <source id="3054252494167332735" name="LayoutRow" hash="-evp69pluk0bnkyiyi3mck3tdm52xfqb" />
+  <source id="3054252494168911876" name="AltView" hash="pa5u2mwstx9djqyh9sh35urde77k74" />
+  <source id="3054252494168912077" name="AltRow" hash="3eq8gva026zek4jc4vspp1w3rgokjag" />
+</dependencies>
+
