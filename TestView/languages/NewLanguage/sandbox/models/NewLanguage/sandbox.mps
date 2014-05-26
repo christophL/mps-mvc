@@ -5,13 +5,6 @@
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <import index="v22m" modelUID="r:32b8da0e-3348-4573-9315-fd1971bfff5a(NewLanguage.structure)" version="1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <root type="v22m.GUI" typeId="v22m.5972941858947234723" id="5972941858947848956" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Testsafasfasdfsaf" />
-    <node role="rows" roleId="v22m.3054252494167241341" type="v22m.LayoutRow" typeId="v22m.3054252494167332735" id="3054252494168315938" nodeInfo="ng" />
-    <node role="rows" roleId="v22m.3054252494167241341" type="v22m.LayoutRow" typeId="v22m.3054252494167332735" id="3054252494168315931" nodeInfo="ng" />
-    <node role="rows" roleId="v22m.3054252494167241341" type="v22m.LayoutRow" typeId="v22m.3054252494167332735" id="3054252494168315926" nodeInfo="ng" />
-    <node role="rows" roleId="v22m.3054252494167241341" type="v22m.LayoutRow" typeId="v22m.3054252494167332735" id="3054252494168315923" nodeInfo="ng" />
-  </root>
   <root type="v22m.View" typeId="v22m.7424277070660562584" id="7424277070660611382" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ViewTest" />
     <node role="buttons" roleId="v22m.7424277070661055401" type="v22m.Button" typeId="v22m.7424277070660527756" id="7424277070661091282" nodeInfo="ng">
@@ -94,6 +87,10 @@
         <property name="name" nameId="tpck.1169194664001" value="h" />
         <property name="text" nameId="v22m.7424277070660527815" value="&lt;h3&gt;Hello, I'm a tree!&lt;/h3&gt;" />
       </node>
+      <node role="elements" roleId="v22m.3054252494168912918" type="v22m.Label" typeId="v22m.7424277070660527810" id="7781747495981235149" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="dfghtg" />
+        <property name="text" nameId="v22m.7424277070660527815" value="Hello, Tree! How are you?" />
+      </node>
     </node>
     <node role="rows" roleId="v22m.3054252494168912074" type="v22m.AltRow" typeId="v22m.3054252494168912077" id="3054252494168984912" nodeInfo="ng">
       <node role="elements" roleId="v22m.3054252494168912918" type="v22m.Label" typeId="v22m.7424277070660527810" id="3054252494171492998" nodeInfo="ng">
@@ -101,7 +98,7 @@
         <property name="text" nameId="v22m.7424277070660527815" value="&lt;img src=&quot;http://icons.iconarchive.com/icons/fasticon/freestyle/128/tree-icon.png&quot;/&gt;" />
       </node>
       <node role="elements" roleId="v22m.3054252494168912918" type="v22m.Button" typeId="v22m.7424277070660527756" id="3054252494169610217" nodeInfo="ng">
-        <property name="text" nameId="v22m.7424277070660979402" value="&lt;img src=&quot;http://img.stockfresh.com/files/z/zzve/x/89/3220071_79346646.jpg&quot;&gt;&lt;br&gt;water" />
+        <property name="text" nameId="v22m.7424277070660979402" value="&lt;img src=&quot;http://img.stockfresh.com/files/z/zzve/x/89/3220071_79346646.jpg&quot;/&gt;" />
         <property name="name" nameId="tpck.1169194664001" value="adf" />
       </node>
     </node>

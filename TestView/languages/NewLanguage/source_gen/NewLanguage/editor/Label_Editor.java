@@ -59,7 +59,7 @@ public class Label_Editor extends DefaultNodeEditor {
       }
     }
 
-    JLabel label = new JLabel("<html>" + SPropertyOperations.getString(node, "text") + "</html>");
+    JLabel label = new JLabel("<html>" + text + "</html>");
     panel.add(label);
 
     return panel;

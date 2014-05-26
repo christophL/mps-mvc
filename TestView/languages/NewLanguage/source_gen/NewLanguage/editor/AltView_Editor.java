@@ -11,6 +11,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
 import javax.swing.BoxLayout;
+import javax.swing.UIManager;
+import javax.swing.SwingUtilities;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.awt.FlowLayout;
@@ -53,7 +55,13 @@ public class AltView_Editor extends DefaultNodeEditor {
     JPanel view = new JPanel();
 
     view.setLayout(new BoxLayout(view, BoxLayout.Y_AXIS));
+    try {
+      UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
 
+    SwingUtilities.updateComponentTreeUI(view);
 
     for (SNode row : ListSequence.fromList(SLinkOperations.getTargets(node, "rows", true))) {
       JPanel rowPanel = new JPanel(new FlowLayout());

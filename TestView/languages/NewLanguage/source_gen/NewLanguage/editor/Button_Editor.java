@@ -49,7 +49,8 @@ public class Button_Editor extends DefaultNodeEditor {
 
   private static JComponent _QueryFunction_JComponent_78mff1_a0a(final SNode node, final EditorContext editorContext) {
     JPanel panel = new JPanel();
-    panel.add(new JButton("<html>" + SPropertyOperations.getString(node, "text") + "</html>"));
+    JButton toAdd = new JButton("<html>" + SPropertyOperations.getString(node, "text") + "</html>");
+    panel.add(toAdd);
     return panel;
   }
 
