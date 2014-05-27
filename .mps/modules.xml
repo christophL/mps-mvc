@@ -5,6 +5,9 @@
       <modulePath path="$PROJECT_DIR$/languages/MvcLanguage/MvcLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MvcLanguage/runtime/MvcLanguage.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MvcLanguage/sandbox/MvcLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ViewLanguage/ViewLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ViewLanguage/runtime/ViewLanguage.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ViewLanguage/sandbox/ViewLanguage.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
