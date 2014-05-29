@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="7j8bzrzvkd63faznwmyvargzgfsjyl3">
+<dependencies version="2" modelHash="e96qr8015t6knd6ge23yby5q5e1sy85">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -34,6 +34,6 @@
   <source id="4416571845570923488" name="main" hash="c69rwrjoa1c8fvzcezstywzhludg29r" />
   <source id="4708323718291468314" name="map_View" hash="-2zamszdkbrty3gfcsms2xnksrcaknfn" />
   <source id="5293348680280169086" name="switchRefViewElement" hash="-aj3lw75a3g6a7wfzm4zml1b90d7nuvr" />
-  <source id="5293348680282699155" name="switchGettersForViewElement" hash="bqsc6pti21gxmdxc52s99hpijcchpq4" />
+  <source id="5293348680282699155" name="switchGettersForViewElement" hash="2qg1k3lsmisvropvgu7pd43v8yqq50b" />
 </dependencies>
 

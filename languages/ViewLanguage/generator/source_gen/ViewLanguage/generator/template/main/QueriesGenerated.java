@@ -37,11 +37,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_5293348680282757859(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "getButton" + SPropertyOperations.getString(_context.getNode(), "name");
+    return _context.createUniqueName(_context.getTemplateValue(), null);
   }
 
   public static Object propertyMacro_GetPropertyValue_5293348680282763841(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "getLabel" + SPropertyOperations.getString(_context.getNode(), "name");
+    return _context.createUniqueName(_context.getTemplateValue(), null);
   }
 
   public static Object referenceMacro_GetReferent_5293348680280222419(final IOperationContext operationContext, final ReferenceMacroContext _context) {
