@@ -36,11 +36,27 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_5293348680282757859(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return "getButton" + SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5293348680282763841(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return "getLabel" + SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
   public static Object referenceMacro_GetReferent_5293348680280222419(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ButtonDeclaration");
   }
 
   public static Object referenceMacro_GetReferent_5293348680281103064(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "LabelDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_5293348680282740612(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ButtonDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_5293348680282742340(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "LabelDeclaration");
   }
 
@@ -62,5 +78,13 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_6146539764345767980(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "rows", true);
+  }
+
+  public static Iterable sourceNodesQuery_5293348680282676861(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "rows", true);
+  }
+
+  public static Iterable sourceNodesQuery_5293348680282682757(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "elements", true);
   }
 }

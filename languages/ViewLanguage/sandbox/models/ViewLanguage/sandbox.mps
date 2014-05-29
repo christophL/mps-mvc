@@ -9,7 +9,7 @@
     <property name="name" nameId="tpck.1169194664001" value="TestView" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="4416571845572276353" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845572276473" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="blank" />
+        <property name="name" nameId="tpck.1169194664001" value="blank1" />
         <property name="text" nameId="iwfp.4416571845570931637" value="&lt;div width=50&quot;&gt;&lt;/div&gt;" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845572276368" nodeInfo="ng">
@@ -17,7 +17,7 @@
         <property name="text" nameId="iwfp.4416571845570931637" value="&lt;h1&gt;Welcome&lt;/h1&gt;" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="6146539764346423571" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="blank" />
+        <property name="name" nameId="tpck.1169194664001" value="blank2" />
         <property name="text" nameId="iwfp.4416571845570931637" value="&lt;div width=50&quot;&gt;&lt;/div&gt;" />
       </node>
     </node>
@@ -33,7 +33,7 @@
         <property name="text" nameId="iwfp.4416571845570931637" value="hello" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Button" typeId="iwfp.4416571845570931433" id="4416571845571311487" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="a" />
+        <property name="name" nameId="tpck.1169194664001" value="button1" />
         <property name="text" nameId="iwfp.4416571845570931634" value="OK" />
       </node>
     </node>

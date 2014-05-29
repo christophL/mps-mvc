@@ -23,7 +23,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="ConsoleHistory">
-    <option name="state" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;model modelUID=&quot;r:30cd5e9d-9544-42c7-9c62-922127d42954(TempModel_2236519341243)&quot;&gt;&#13;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#13;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#13;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#13;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;5293348680279547712&quot; nodeInfo=&quot;ng&quot;&gt;&#13;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;7123373207984495480&quot; nodeInfo=&quot;ng&quot; /&gt;&#13;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;5293348680279547713&quot; nodeInfo=&quot;ng&quot; /&gt;&#13;&#10;  &lt;/root&gt;&#13;&#10;&lt;/model&gt;&#13;&#10;&#13;&#10;" />
+    <option name="state" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;model modelUID=&quot;r:96b78c5d-e695-4ef4-a641-5186c33efff0(TempModel_12618794951985)&quot;&gt;&#13;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#13;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#13;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#13;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#13;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;5293348680282625707&quot; nodeInfo=&quot;ng&quot;&gt;&#13;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;7123373207984495480&quot; nodeInfo=&quot;ng&quot; /&gt;&#13;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;5293348680282625708&quot; nodeInfo=&quot;ng&quot; /&gt;&#13;&#10;  &lt;/root&gt;&#13;&#10;&lt;/model&gt;&#13;&#10;&#13;&#10;" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,19 +41,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="View" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="View" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://node://ViewLanguage/ViewLanguage.structure/View">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <memento viewPositionX="0" viewPositionY="283">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="66" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="149" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/4708323718291468316" />
+                    <cellInfo cellId="Constant_31t0mi_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282807273" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -61,7 +61,17 @@
                 <enabledHints />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="123" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
                 <enabledHints />
               </inspectorMemento>
@@ -70,8 +80,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/main">
+      <file leaf-file-name="switchGettersForViewElement" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/switchGettersForViewElement">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
@@ -79,10 +89,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
+                    <property name="caretX" value="55" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_g6pxeq_f0" cellNumber="0" isInList="false">
-                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/4416571845570923488" />
+                    <cellInfo cellId="Constant_c84kqv_c0" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -90,7 +100,17 @@
                 <enabledHints />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="123" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
                 <enabledHints />
               </inspectorMemento>
@@ -98,25 +118,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestView.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="previewViewLanguage.sandbox/TestView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="switch_ViewElement" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/switch_ViewElement">
+      <file leaf-file-name="TestView" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://ViewLanguage.sandbox/ViewLanguage.sandbox/TestView">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="91">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="40" />
+                    <property name="caretX" value="219" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                      <node node_reference="r:81e2254b-2012-4c1f-84e1-84c737b153a2(ViewLanguage.sandbox)/4416571845571311478" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="123" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="switchRefViewElement" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/switchRefViewElement">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="caretX" value="79" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="139" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_q42gqn_c1c0" cellNumber="0" isInList="false">
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                       <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680280169086" />
                     </cellInfo>
                   </stackElement>
@@ -125,7 +183,17 @@
                 <enabledHints />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="123" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
                 <enabledHints />
               </inspectorMemento>
@@ -133,18 +201,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestView" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ViewLanguage.sandbox/ViewLanguage.sandbox/TestView">
+      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <memento viewPositionX="0" viewPositionY="391">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-15" />
-                    <property name="caretX" value="0" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="31" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="JComponent_3ycbab_c0" cellNumber="0" isInList="false">
-                      <node node_reference="r:81e2254b-2012-4c1f-84e1-84c737b153a2(ViewLanguage.sandbox)/4416571845570979559" />
+                    <cellInfo cellId="empty_weavingMappingRule" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/4416571845570923488" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -152,7 +221,17 @@
                 <enabledHints />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="123" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                      <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
                 <enabledHints />
               </inspectorMemento>
@@ -267,8 +346,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,24 +403,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ViewLanguage">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ViewLanguage.structure">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
@@ -369,6 +428,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,8 +437,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.3.0/calculator-tutorial" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -469,7 +530,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.4996277" order="7" side_tool="false" content_ui="tabs" />
@@ -480,22 +541,22 @@
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40495867" sideWeight="0.42740133" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38181818" sideWeight="0.42740133" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23901713" sideWeight="0.75041324" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23901713" sideWeight="0.7818182" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958678" sideWeight="0.64482504" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21818182" sideWeight="0.56440806" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958678" sideWeight="0.355175" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21818182" sideWeight="0.43559197" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.6661157" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -504,8 +565,8 @@
       <window_info id="Switch Verification Tool" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Type System Performance Data" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="State Machine Verification (NuSMV)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="State Machine Verification (NuSMV)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr Analyze Error Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Feature Model Verification (Yices)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -795,42 +856,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ViewLanguage.sandbox/ViewLanguage.sandbox/TestView">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="JComponent_3ycbab_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:81e2254b-2012-4c1f-84e1-84c737b153a2(ViewLanguage.sandbox)/4416571845570979559" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/switch_ViewElement">
+    <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/switchRefViewElement">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="48" />
-                <property name="caretX" value="79" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="139" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_q42gqn_c1c0" cellNumber="0" isInList="false">
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680280169086" />
                 </cellInfo>
               </stackElement>
@@ -839,7 +875,17 @@
             <enabledHints />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="123" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
             <enabledHints />
           </inspectorMemento>
@@ -849,14 +895,14 @@
     <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="391">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
+                <property name="caretX" value="31" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_g6pxeq_f0" cellNumber="0" isInList="false">
+                <cellInfo cellId="empty_weavingMappingRule" cellNumber="0" isInList="false">
                   <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/4416571845570923488" />
                 </cellInfo>
               </stackElement>
@@ -865,7 +911,53 @@
             <enabledHints />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="123" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ViewLanguage.sandbox/ViewLanguage.sandbox/TestView">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="91">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="40" />
+                <property name="caretX" value="219" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                  <node node_reference="r:81e2254b-2012-4c1f-84e1-84c737b153a2(ViewLanguage.sandbox)/4416571845571311478" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="123" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
             <enabledHints />
           </inspectorMemento>
@@ -875,15 +967,15 @@
     <entry file="mps://node://ViewLanguage/ViewLanguage.structure/View">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="283">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="66" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="149" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/4708323718291468316" />
+                <cellInfo cellId="Constant_31t0mi_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282807273" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -891,11 +983,57 @@
             <enabledHints />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="123" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/4708323718291468314" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ViewLanguage#4416571845570923487/ViewLanguage.generator.template.main@generator/switchGettersForViewElement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="55" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_c84kqv_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="123" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_labelDeclaration" cellNumber="0" isInList="false">
+                  <node node_reference="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680282699193" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>

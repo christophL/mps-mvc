@@ -9,9 +9,6 @@
     <classNode dependClassName="javax.swing.JLabel" />
     <classNode dependClassName="javax.swing.JPanel" />
     <classNode dependClassName="javax.swing.SwingUtilities" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="javax.swing.JFrame" />
   </dependency>
 </dependenciesRoot>
