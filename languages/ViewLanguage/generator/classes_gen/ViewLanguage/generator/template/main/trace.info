@@ -29,9 +29,9 @@
   </root>
   <root nodeRef="r:863b3ae8-e48d-4295-a023-20f8702abc2a(ViewLanguage.generator.template.main@generator)/5293348680280169086">
     <nodeInfo nodeId="5293348680280222421" fileName="QueriesGenerated.java" startLine="39" startPosition="151" endLine="40" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5293348680280311238" fileName="QueriesGenerated.java" startLine="43" startPosition="151" endLine="44" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5293348680281103066" fileName="QueriesGenerated.java" startLine="43" startPosition="151" endLine="44" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="5293348680280222420" fileName="QueriesGenerated.java" startLine="39" startPosition="151" endLine="40" endPosition="101" />
-    <scopeInfo nodeId="5293348680280311237" fileName="QueriesGenerated.java" startLine="43" startPosition="151" endLine="44" endPosition="100" />
+    <scopeInfo nodeId="5293348680281103065" fileName="QueriesGenerated.java" startLine="43" startPosition="151" endLine="44" endPosition="100" />
   </root>
 </debugInfo>
 

@@ -40,7 +40,7 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ButtonDeclaration");
   }
 
-  public static Object referenceMacro_GetReferent_5293348680280311236(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+  public static Object referenceMacro_GetReferent_5293348680281103064(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "LabelDeclaration");
   }
 
