@@ -32,22 +32,14 @@ public class ViewRow_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_vjo5cr_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_vjo5cr_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_vjo5cr_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_vjo5cr_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_vjo5cr_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_vjo5cr_d0(editorContext, node));
     return editorCell;
   }
 
   private EditorCell createConstant_vjo5cr_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_vjo5cr_a0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_vjo5cr_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Row");
-    editorCell.setCellId("Constant_vjo5cr_b0");
+    editorCell.setCellId("Constant_vjo5cr_a0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
     editorCell.getStyle().putAll(style);
@@ -55,23 +47,16 @@ public class ViewRow_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_vjo5cr_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_vjo5cr_c0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createRefNodeList_vjo5cr_d0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new ViewRow_Editor.elementsListHandler_vjo5cr_d0(node, "elements", editorContext);
+  private EditorCell createRefNodeList_vjo5cr_b0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new ViewRow_Editor.elementsListHandler_vjo5cr_b0(node, "elements", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_elements");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private static class elementsListHandler_vjo5cr_d0 extends RefNodeListHandler {
-    public elementsListHandler_vjo5cr_d0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class elementsListHandler_vjo5cr_b0 extends RefNodeListHandler {
+    public elementsListHandler_vjo5cr_b0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -108,5 +93,12 @@ public class ViewRow_Editor extends DefaultNodeEditor {
         }
       }
     }
+  }
+
+  private EditorCell createConstant_vjo5cr_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_vjo5cr_c0");
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 }

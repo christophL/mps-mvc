@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-b0g4ww57tf70769857ex3mng5w1esm9">
+<dependencies version="2" modelHash="aewx5zetn176on32ezm02907ukuecgi">
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" />
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/jetbrains.mps.nodeEditor.cellLayout@java_stub)" />
@@ -60,7 +60,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="View_Editor.java" />
   </source>
-  <source id="4416571845570931945" name="ViewRow_Editor" hash="-dfenr3v9r1aaeir937t3o9drvdyigi2">
+  <source id="4416571845570931945" name="ViewRow_Editor" hash="e367277u5osrs50pxshrrob0jrc6t7i">
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/jetbrains.mps.nodeEditor.cellLayout@java_stub)" />
@@ -78,7 +78,7 @@
     <dep model="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" />
     <file name="ViewRow_Editor.java" />
   </source>
-  <source id="4416571845570932996" name="Button_Editor" hash="5nql56vufw4j6j1i1qjpx2wm4txu79i">
+  <source id="4416571845570932996" name="Button_Editor" hash="848mbq1kacq1jelywl5vgya5ax9x55h">
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -88,7 +88,7 @@
     <dep model="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" />
     <file name="Button_Editor.java" />
   </source>
-  <source id="4416571845570946522" name="Label_Editor" hash="-hajyuadfb4nz1pduf1r4ugkfaw4qqk">
+  <source id="4416571845570946522" name="Label_Editor" hash="-eisd0b1zmqh6pzhvpeiy0z5hwmjum4q">
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />

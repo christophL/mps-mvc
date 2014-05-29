@@ -26,7 +26,6 @@ public class Label_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_n2z1yk_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_n2z1yk_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_n2z1yk_b0(editorContext, node));
     return editorCell;
   }
 
@@ -90,13 +89,6 @@ public class Label_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
-    return editorCell;
-  }
-
-  private EditorCell createConstant_n2z1yk_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_n2z1yk_b0");
-    editorCell.setDefaultText("");
     return editorCell;
   }
 }

@@ -26,7 +26,6 @@ public class Button_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_78mff1_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_78mff1_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_78mff1_b0(editorContext, node));
     return editorCell;
   }
 
@@ -90,13 +89,6 @@ public class Button_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
-    return editorCell;
-  }
-
-  private EditorCell createConstant_78mff1_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_78mff1_b0");
-    editorCell.setDefaultText("");
     return editorCell;
   }
 }

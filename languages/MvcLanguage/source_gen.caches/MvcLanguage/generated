@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-11ot98k8cmxc61tuiqifb3oe0v85xxm">
+  <dep model="r:20cf1d82-e573-4257-b6ae-0b5ae4fe64d3(MvcLanguage.typesystem)" hash="cwm9i795fx0fqjnecc2u7e43gk5ptyz" />
+  <dep model="r:dccc1901-03d5-47b0-96ec-3f0ea03c1e2e(MvcLanguage.editor)" hash="8u63fcidktb6d8mdecli7lbqmb0lh33" />
+  <common>
+    <dep model="r:20cf1d82-e573-4257-b6ae-0b5ae4fe64d3(MvcLanguage.typesystem)" />
+    <dep model="r:dccc1901-03d5-47b0-96ec-3f0ea03c1e2e(MvcLanguage.editor)" />
+    <file name="Language.java" />
+  </common>
+</dependencies>
+
