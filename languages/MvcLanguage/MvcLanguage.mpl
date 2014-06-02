@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="MvcLanguage#7123373207984495476" uuid="ba2a5a58-82e8-471c-ae43-c12f9ffdef34">
+    <generator name="MvcLanguageGenerator" generatorUID="MvcLanguage#7123373207984495476" uuid="ba2a5a58-82e8-471c-ae43-c12f9ffdef34">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
