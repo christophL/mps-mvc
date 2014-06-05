@@ -78,8 +78,8 @@
         </node>
       </node>
       <node role="statements" roleId="twbs.1068580123135" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="6793471094001579819" nodeInfo="nn">
-        <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="6793471094001582087" nodeInfo="nn">
-          <property name="text" nameId="tpee.6329021646629104958" value="((JLabel) Test).setText(&quot;haha&quot;);" />
+        <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2187574764596596389" nodeInfo="nn">
+          <property name="text" nameId="tpee.6329021646629104958" value="Test.setText(&quot;new&quot;);" />
         </node>
       </node>
       <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="6793471093999818052" nodeInfo="ng">
