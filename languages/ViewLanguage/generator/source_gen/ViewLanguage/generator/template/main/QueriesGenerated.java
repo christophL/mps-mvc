@@ -60,6 +60,14 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "LabelDeclaration");
   }
 
+  public static Object referenceMacro_GetReferent_6793471093998994845(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ButtonGetter"), "name");
+  }
+
+  public static Object referenceMacro_GetReferent_6793471094000236776(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "LabelGetter"), "name");
+  }
+
   public static SNode sourceNodeQuery_5293348680280722259(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
   }
