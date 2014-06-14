@@ -120,6 +120,8 @@
   </root>
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8612243370792258091" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestView" />
+    <property name="width" nameId="iwfp.7722833324906570910" value="298" />
+    <property name="height" nameId="iwfp.7722833324906570912" value="231" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8612243370792258146" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845572276473" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="blank1" />
@@ -153,6 +155,8 @@
   </root>
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8089774339945446412" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Test2" />
+    <property name="width" nameId="iwfp.7722833324906570910" value="272" />
+    <property name="height" nameId="iwfp.7722833324906570912" value="49" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8089774339945446440" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="8089774339945446448" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="hello" />

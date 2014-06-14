@@ -8,7 +8,6 @@ import javax.swing.JButton;
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
 import java.awt.FlowLayout;
-import javax.swing.SwingUtilities;
 
 public class TestView extends JFrame {
 
@@ -52,38 +51,28 @@ public class TestView extends JFrame {
 
 
 
-  public JLabel getblank1() {
+  public JLabel getLabel_a0() {
     return label_a0;
   }
 
-  public JLabel getheadline() {
+  public JLabel getLabel_b0() {
     return label_b0;
   }
 
-  public JLabel getblank2() {
+  public JLabel getLabel_c0() {
     return label_c0;
   }
 
-  public JLabel getL1() {
+  public JLabel getLabel_a1() {
     return label_a1;
   }
 
-  public JLabel getTest() {
+  public JLabel getLabel_a2() {
     return label_a2;
   }
 
-  public JButton getbutton1() {
+  public JButton getButton_b2() {
     return button_b2;
-  }
-
-
-
-  public static void main(String[] args) {
-    SwingUtilities.invokeLater(new Runnable() {
-      public void run() {
-        new TestView();
-      }
-    });
   }
 
 

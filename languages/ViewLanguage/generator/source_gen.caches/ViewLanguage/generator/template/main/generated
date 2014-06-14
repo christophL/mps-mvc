@@ -10,7 +10,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" hash="5cwenonz2qk4rmom2gvo74tktnjdrkx" />
+  <dep model="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" hash="bdezyxwuuxbj57dk6xkwv76fqkqrntu" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <common hash="baxqhd7da5i39gs4rs22rf54yp1l7nt">
     <dep root="4416571845570923488" />

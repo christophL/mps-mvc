@@ -7,6 +7,8 @@
   <import index="iwfp" modelUID="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" version="-1" implicit="yes" />
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="4416571845570979559" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestView" />
+    <property name="width" nameId="iwfp.7722833324906570910" value="313" />
+    <property name="height" nameId="iwfp.7722833324906570912" value="216" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="4416571845572276353" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845572276473" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="blank1" />
