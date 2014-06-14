@@ -8,7 +8,6 @@
   <sourcePath />
   <usedLanguages>
     <usedLanguage>722c4d25-be5f-48ea-9ff2-3c3a4833029c(ViewLanguage)</usedLanguage>
-    <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
   </usedLanguages>
 </solution>
 
