@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dvznzxkg7nti6z0ryk4zfi1vp2bwpi2">
+<dependencies version="2" modelHash="-5elcueq4740jbgjjg3nmjqmi10uq75o">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -33,11 +33,11 @@
     <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="4416571845570923488" name="main" hash="-1eeksrwgp9cep50yecy1sk79s9r0nxm" />
-  <source id="4708323718291468314" name="map_View" hash="-b1cgslqsyialcmhm7arubmw2n54xnue" />
-  <source id="5293348680280169086" name="switchRefViewElement" hash="-aj3lw75a3g6a7wfzm4zml1b90d7nuvr" />
-  <source id="5293348680282699155" name="switchGettersForViewElement" hash="2qg1k3lsmisvropvgu7pd43v8yqq50b" />
-  <source id="6124084918415930880" name="switchCallGetter" hash="4nlcab9m2ptgg0q0oce3bb2r5oiamir" />
+  <source id="4416571845570923488" name="main" hash="-9ty9nwcjchomwzd8qvaj0aauhrukphy" />
+  <source id="4708323718291468314" name="map_View" hash="-399bkqeag346serpgeu1k640ewblnrp" />
+  <source id="5293348680280169086" name="switchRefViewElement" hash="-5hk6m37tmqt9jrlzutbg2mah4uyqjkv" />
+  <source id="5293348680282699155" name="switchGettersForViewElement" hash="5kwmcrd67g4ci69q7glqvcwl1cgopfk" />
+  <source id="6124084918415930880" name="switchCallGetter" hash="-bru7yzyymca9d7iisptakb44o3utsh2" />
   <source id="6661013270441928259" name="reduce_ViewElementReference" hash="-a2kyn675etcppsp5215b7941q8eruv9" />
 </dependencies>
 
