@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/ModelLanguage/ModelLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MvcLanguage/MvcLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MvcLanguage/runtime/MvcLanguage.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MvcLanguage/sandbox/MvcLanguage.sandbox.msd" folder="" />
