@@ -36,6 +36,26 @@ public class QueriesGenerated {
     return _context.createUniqueName("textField", null);
   }
 
+  public static Object propertyMacro_GetPropertyValue_5291332005011545444(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "text");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5291332005011545452(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName("radioButton", null);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5291332005011553957(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "text");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5291332005011553965(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName("checkBox", null);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5291332005011555727(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName("table", null);
+  }
+
   public static Object propertyMacro_GetPropertyValue_4708323718294918094(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
@@ -64,6 +84,18 @@ public class QueriesGenerated {
     return _context.createUniqueName(_context.getTemplateValue(), null);
   }
 
+  public static Object propertyMacro_GetPropertyValue_5291332005011618165(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName(_context.getTemplateValue(), null);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5291332005011621311(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName(_context.getTemplateValue(), null);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5291332005011688212(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName(_context.getTemplateValue(), null);
+  }
+
   public static Object referenceMacro_GetReferent_5293348680280222419(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ButtonDeclaration");
   }
@@ -74,6 +106,18 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_8775685081083409409(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TextFieldDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011635719(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RadioButtonDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011636878(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "CheckBoxDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011638113(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TableDeclaration");
   }
 
   public static Object referenceMacro_GetReferent_5293348680282740612(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -88,6 +132,18 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TextFieldDeclaration");
   }
 
+  public static Object referenceMacro_GetReferent_5291332005011618154(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RadioButtonDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011621300(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "CheckBoxDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011688201(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TableDeclaration");
+  }
+
   public static Object referenceMacro_GetReferent_6793471093998994845(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ButtonGetter"), "name");
   }
@@ -98,6 +154,18 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_8775685081083399244(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TextFieldGetter"), "name");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011611018(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RadioButtonGetter"), "name");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011627001(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "CheckBoxGetter"), "name");
+  }
+
+  public static Object referenceMacro_GetReferent_5291332005011633128(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TableGetter"), "name");
   }
 
   public static SNode sourceNodeQuery_5293348680280722259(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

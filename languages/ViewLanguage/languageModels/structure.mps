@@ -95,5 +95,33 @@
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5291332005011329057" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="CheckBox" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4416571845570931499" resolveInfo="ViewElement" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5291332005011338560" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="text" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5291332005011338583" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="RadioButton" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4416571845570931499" resolveInfo="ViewElement" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5291332005011366851" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="text" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5291332005011366876" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Table" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4416571845570931499" resolveInfo="ViewElement" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5291332005011366877" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="width" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5291332005011366879" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="height" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+  </root>
 </model>
 
