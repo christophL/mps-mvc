@@ -151,7 +151,7 @@
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8612243370792258091" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestView" />
     <property name="width" nameId="iwfp.7722833324906570910" value="505" />
-    <property name="height" nameId="iwfp.7722833324906570912" value="539" />
+    <property name="height" nameId="iwfp.7722833324906570912" value="336" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8612243370792258146" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845572276368" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="headline" />
@@ -164,47 +164,61 @@
         <property name="width" nameId="iwfp.5291332005011366877" value="400" />
         <property name="height" nameId="iwfp.5291332005011366879" value="150" />
       </node>
-    </node>
-    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="7455858202468443514" nodeInfo="ng">
-      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.CheckBox" typeId="iwfp.5291332005011329057" id="7455858202469626232" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="OptionA" />
-        <property name="text" nameId="iwfp.5291332005011338560" value="&lt;img src=&quot;https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRpaeXV0jZk1SLE2xCjYlxoPD40H4g8Xxxx9xueVv1GCUXEFIg6&quot;&gt;" />
-      </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845570979596" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="L1" />
         <property name="text" nameId="iwfp.4416571845570931637" value="&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/55px-Wave.svg.png&quot;&gt;" />
+      </node>
+    </node>
+    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="7455858202468443514" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7455858202470189713" nodeInfo="ng">
+        <property name="text" nameId="iwfp.4416571845570931637" value="Select:" />
+        <property name="name" nameId="tpck.1169194664001" value="LabelA" />
+      </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.CheckBox" typeId="iwfp.5291332005011329057" id="7455858202469626232" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="OptionA" />
+        <property name="text" nameId="iwfp.5291332005011338560" value="&lt;img src=&quot;https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRpaeXV0jZk1SLE2xCjYlxoPD40H4g8Xxxx9xueVv1GCUXEFIg6&quot;&gt;" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.CheckBox" typeId="iwfp.5291332005011329057" id="7455858202469626249" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="OptionB" />
         <property name="text" nameId="iwfp.5291332005011338560" value="&lt;img src=&quot;http://4.bp.blogspot.com/-L2Ot2cLy_fE/UoJ8kfcxGEI/AAAAAAAADuU/kDFaOyn5Y4I/s1600/136.jpg&quot;&gt;" />
       </node>
-    </node>
-    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="7455858202470189630" nodeInfo="ng">
-      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7455858202470189713" nodeInfo="ng">
-        <property name="text" nameId="iwfp.4416571845570931637" value="Select:" />
-        <property name="name" nameId="tpck.1169194664001" value="LabelA" />
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7911665463591559846" nodeInfo="ng">
+        <property name="text" nameId="iwfp.4416571845570931637" value=", or either" />
+        <property name="name" nameId="tpck.1169194664001" value="L2" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.RadioButton" typeId="iwfp.5291332005011338583" id="7455858202469626242" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GreetingA" />
         <property name="text" nameId="iwfp.5291332005011366851" value="X" />
       </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7911665463591559889" nodeInfo="ng">
+        <property name="text" nameId="iwfp.4416571845570931637" value="," />
+        <property name="name" nameId="tpck.1169194664001" value="L3" />
+      </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.RadioButton" typeId="iwfp.5291332005011338583" id="7455858202469626234" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GreetingB" />
         <property name="text" nameId="iwfp.5291332005011366851" value="Y" />
+      </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7911665463591559898" nodeInfo="ng">
+        <property name="text" nameId="iwfp.4416571845570931637" value="or" />
+        <property name="name" nameId="tpck.1169194664001" value="L4" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.RadioButton" typeId="iwfp.5291332005011338583" id="7455858202470189717" nodeInfo="ng">
         <property name="text" nameId="iwfp.5291332005011366851" value="Z" />
         <property name="name" nameId="tpck.1169194664001" value="GreetingC" />
       </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7911665463591559908" nodeInfo="ng">
+        <property name="text" nameId="iwfp.4416571845570931637" value="." />
+        <property name="name" nameId="tpck.1169194664001" value="L5" />
+      </node>
     </node>
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8612243370792258157" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845571311478" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Test" />
-        <property name="text" nameId="iwfp.4416571845570931637" value="click" />
+        <property name="text" nameId="iwfp.4416571845570931637" value="Click" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Button" typeId="iwfp.4416571845570931433" id="4416571845571311487" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="button1" />
-        <property name="text" nameId="iwfp.4416571845570931634" value="OK" />
+        <property name="text" nameId="iwfp.4416571845570931634" value="here" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7455858202469626321" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Test2" />
