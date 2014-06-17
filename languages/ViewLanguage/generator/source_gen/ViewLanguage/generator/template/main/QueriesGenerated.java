@@ -6,6 +6,8 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
+import jetbrains.mps.generator.template.IfMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -56,6 +58,14 @@ public class QueriesGenerated {
     return _context.createUniqueName("table", null);
   }
 
+  public static Object propertyMacro_GetPropertyValue_7565410853838758298(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName("tablePanel", null);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7565410853838816069(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName("tableScrollPane", null);
+  }
+
   public static Object propertyMacro_GetPropertyValue_4708323718294918094(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
@@ -94,6 +104,14 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_5291332005011688212(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return _context.createUniqueName(_context.getTemplateValue(), null);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7565410853842916209(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(_context.getNode(), "width");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7565410853842917803(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(_context.getNode(), "height");
   }
 
   public static Object referenceMacro_GetReferent_5293348680280222419(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -168,6 +186,22 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TableGetter"), "name");
   }
 
+  public static boolean ifMacro_Condition_7565410853838158819(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table");
+  }
+
+  public static boolean ifMacro_Condition_7565410853838200632(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table");
+  }
+
+  public static boolean ifMacro_Condition_7565410853840127509(final IOperationContext operationContext, final IfMacroContext _context) {
+    return !(SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table"));
+  }
+
+  public static boolean ifMacro_Condition_7565410853838746073(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table");
+  }
+
   public static SNode sourceNodeQuery_5293348680280722259(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
   }
@@ -184,7 +218,27 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "elements", true);
   }
 
+  public static Iterable sourceNodesQuery_7565410853838150017(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "rows", true);
+  }
+
+  public static Iterable sourceNodesQuery_7565410853838153964(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "elements", true);
+  }
+
+  public static Iterable sourceNodesQuery_7565410853838200618(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "rows", true);
+  }
+
+  public static Iterable sourceNodesQuery_7565410853838200625(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "elements", true);
+  }
+
   public static Iterable sourceNodesQuery_5293348680280144251(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "elements", true);
+  }
+
+  public static Iterable sourceNodesQuery_7565410853838738905(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "elements", true);
   }
 
