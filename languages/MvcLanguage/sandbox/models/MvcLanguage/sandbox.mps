@@ -87,6 +87,11 @@
           </node>
         </node>
       </node>
+      <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="1918530708907805172" nodeInfo="ng">
+        <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1918530708907806732" nodeInfo="ng">
+          <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="Test2" />
+        </node>
+      </node>
     </node>
     <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="6793471093999816584" nodeInfo="ng">
       <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="6793471093999819486" nodeInfo="ng">
