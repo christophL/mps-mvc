@@ -11,6 +11,7 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>5b39faf1-15ef-454c-9e25-5c13006ed272(ControllerLanguage)</usedLanguage>
+    <usedLanguage>cf953328-5115-4203-9867-d4f40ffc72a0(ModelLanguage)</usedLanguage>
     <usedLanguage>722c4d25-be5f-48ea-9ff2-3c3a4833029c(ViewLanguage)</usedLanguage>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
   </usedLanguages>
