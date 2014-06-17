@@ -61,11 +61,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8775685081083318640(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(_context.getNode(), "width");
+    return SPropertyOperations.getInteger(_context.getNode(), "width") + 10;
   }
 
   public static Object propertyMacro_GetPropertyValue_8775685081083320173(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(_context.getNode(), "height");
+    return SPropertyOperations.getInteger(_context.getNode(), "height") + 30;
   }
 
   public static Object propertyMacro_GetPropertyValue_4708323718291471138(final IOperationContext operationContext, final PropertyMacroContext _context) {
