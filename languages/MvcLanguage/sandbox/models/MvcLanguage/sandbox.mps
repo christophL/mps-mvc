@@ -285,6 +285,9 @@
     <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="7802003730806192567" nodeInfo="ng">
       <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="7802003730805857809" resolveInfo="Person" />
     </node>
+    <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="2654886405483122994" nodeInfo="ng">
+      <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="2654886405483122740" resolveInfo="Car" />
+    </node>
   </root>
   <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="7802003730805857809" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Person" />
@@ -302,6 +305,24 @@
       <property name="name" nameId="tpck.1169194664001" value="address" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="7802003730805858040" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="7802003730805858055" nodeInfo="in" />
+    </node>
+  </root>
+  <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="2654886405483122740" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Car" />
+    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2654886405483122768" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="brand" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2654886405483122769" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2654886405483122778" nodeInfo="in" />
+    </node>
+    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2654886405483122805" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="builtIn" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2654886405483122806" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="2654886405483122818" nodeInfo="in" />
+    </node>
+    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2654886405483122853" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="ps" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2654886405483122854" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="2654886405483122869" nodeInfo="in" />
     </node>
   </root>
 </model>
