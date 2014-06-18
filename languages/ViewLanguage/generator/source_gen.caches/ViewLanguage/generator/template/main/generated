@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="3rpkjbeytrzqdn4n80nril8qowtx7jp">
+<dependencies version="2" modelHash="44jnebqwsqotxw4vtgnljh0npvue8dq">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -13,13 +13,13 @@
   <dep model="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" hash="-5fom7wjqax4stxgwkfjxl1cxm5mt8hn" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <common hash="-dq3gpx00lz1jza10zuh2f0e1huaj3vz">
+    <dep root="3094527505513129062" />
     <dep root="4416571845570923488" />
     <dep root="4708323718291468314" />
     <dep root="5293348680280169086" />
     <dep root="5293348680282699155" />
     <dep root="6124084918415930880" />
     <dep root="6661013270441928259" />
-    <dep root="7565410853839579889" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -34,13 +34,12 @@
     <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="4416571845570923488" name="main" hash="4yiis625wuh78p3e7oxmo7mg43t5c5s" />
-  <source id="4708323718291468314" name="map_View" hash="ciuih7qmxtb8tnoybtjyhzpzolquuv2" />
+  <source id="4416571845570923488" name="main" hash="-667s3ttp2233xp7v3p6sv62jm9cuy7d" />
+  <source id="4708323718291468314" name="map_View" hash="apu8770vcos40bwcnzqvd44t9p2uhdg" />
   <source id="5293348680280169086" name="switchRefViewElement" hash="-6ip3ziflnak0jo0edamj6sw75dppgfm" />
   <source id="5293348680282699155" name="switchGettersForViewElement" hash="87whz3za4rbpq5k9dn4pi3q1fby1chc" />
   <source id="6124084918415930880" name="switchCallGetter" hash="-hqlu9tgetcng0y8mgji85ikdlx9e0f" />
   <source id="6661013270441928259" name="reduce_ViewElementReference" hash="-a2kyn675etcppsp5215b7941q8eruv9" />
-  <source id="7565410853839579889" name="tableScrollPaneSetSize" hash="bh48mqtw36xk0kmhn6tuizfd9be5g1s" />
-  <source id="7565410853840748198" name="tableAutoResizeOff" hash="-d0o69x2kbdy01vgl14e7eqw0z2ejvd2" />
+  <source id="3094527505513129062" name="switchAddViewElement" hash="e3rt4ay7pdmp084w089hv8dir2tht0g" />
 </dependencies>
 

@@ -106,11 +106,11 @@ public class QueriesGenerated {
     return _context.createUniqueName(_context.getTemplateValue(), null);
   }
 
-  public static Object propertyMacro_GetPropertyValue_7565410853842916209(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_3094527505513615171(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(_context.getNode(), "width");
   }
 
-  public static Object propertyMacro_GetPropertyValue_7565410853842917803(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_3094527505513616769(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(_context.getNode(), "height");
   }
 
@@ -186,19 +186,67 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TableGetter"), "name");
   }
 
+  public static Object referenceMacro_GetReferent_3094527505513238953(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ButtonDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513263213(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "LabelDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513264645(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TextFieldDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513266082(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RadioButtonDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513267529(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "CheckBoxDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513871577(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TablePanelDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513901880(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ScrollPaneDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513888064(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ScrollPaneDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513612525(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TableDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513884717(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ScrollPaneDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513597778(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TableDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513875585(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TablePanelDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513881396(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ScrollPaneDeclaration");
+  }
+
+  public static Object referenceMacro_GetReferent_3094527505513878248(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TablePanelDeclaration");
+  }
+
   public static boolean ifMacro_Condition_7565410853838158819(final IOperationContext operationContext, final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table");
   }
 
   public static boolean ifMacro_Condition_7565410853838200632(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table");
-  }
-
-  public static boolean ifMacro_Condition_7565410853840127509(final IOperationContext operationContext, final IfMacroContext _context) {
-    return !(SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table"));
-  }
-
-  public static boolean ifMacro_Condition_7565410853838746073(final IOperationContext operationContext, final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), "ViewLanguage.structure.Table");
   }
 
@@ -235,10 +283,6 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_5293348680280144251(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "elements", true);
-  }
-
-  public static Iterable sourceNodesQuery_7565410853838738905(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "elements", true);
   }
 
