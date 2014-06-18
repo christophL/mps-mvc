@@ -8,7 +8,7 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="dbrf" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
-  <import index="twbs" modelUID="r:e10dc791-273c-40da-9dfd-29049f48bba7(ControllerLanguage.structure)" version="3" implicit="yes" />
+  <import index="twbs" modelUID="r:e10dc791-273c-40da-9dfd-29049f48bba7(ControllerLanguage.structure)" version="4" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
@@ -98,7 +98,7 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7565410853837966112" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7565410853837966177" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7565410853837966111" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3094527505524249565" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7565410853837868059" resolveInfo="group1" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7565410853837967086" nodeInfo="nn">
@@ -111,7 +111,7 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7565410853837975608" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7565410853837975609" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7565410853837975610" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3094527505524249705" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7565410853837868059" resolveInfo="group1" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7565410853837975611" nodeInfo="nn">
@@ -124,7 +124,7 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7565410853837976514" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7565410853837976651" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7565410853837976513" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3094527505524249839" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7565410853837868059" resolveInfo="group1" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7565410853837977123" nodeInfo="nn">
@@ -137,6 +137,11 @@
           </node>
         </node>
       </node>
+    </node>
+    <node role="passedObject" roleId="twbs.3094527505515266469" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="3094527505517053928" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="person" />
+      <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="7802003730805857809" resolveInfo="Person" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520380497" nodeInfo="in" />
     </node>
   </root>
   <root type="twbs.Navigation" typeId="twbs.2276588493216905898" id="2276588493217458932" nodeInfo="ng">
@@ -283,13 +288,17 @@
   </root>
   <root type="o3mj.EntityManager" typeId="o3mj.5727011447453135750" id="7802003730805857714" nodeInfo="ng">
     <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="7802003730806192567" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="person" />
       <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="7802003730805857809" resolveInfo="Person" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520388111" nodeInfo="in" />
     </node>
     <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="2654886405483122994" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="car" />
       <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="2654886405483122740" resolveInfo="Car" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520388117" nodeInfo="in" />
     </node>
   </root>
-  <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="7802003730805857809" nodeInfo="ng">
+  <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="7802003730805857809" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Person" />
     <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7802003730805857974" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="name" />
@@ -307,7 +316,7 @@
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="7802003730805858055" nodeInfo="in" />
     </node>
   </root>
-  <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="2654886405483122740" nodeInfo="ng">
+  <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="2654886405483122740" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Car" />
     <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2654886405483122768" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="brand" />

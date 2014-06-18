@@ -34,5 +34,11 @@
     <RenameModel oldModel="r:7558e9b8-4f74-4277-b03b-b43cea0738e5(MvcLanguage.constraints)" newModel="r:7558e9b8-4f74-4277-b03b-b43cea0738e5(ControllerLanguage.constraints)" />
     <RenameModel oldModel="r:72fbb9df-11ab-42d6-9f9d-d95c833dbd6b(MvcLanguage.generator.template.main@generator)" newModel="r:72fbb9df-11ab-42d6-9f9d-d95c833dbd6b(ControllerLanguage.generator.template.main@generator)" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="twbs" modelUID="r:e10dc791-273c-40da-9dfd-29049f48bba7(ControllerLanguage.structure)" version="3" />
+    </dependencies>
+    <rename id="twbs.3094527505515266469" type="CHILD" from="object" to="passedObject" />
+  </StructureModification>
 </history>
 
