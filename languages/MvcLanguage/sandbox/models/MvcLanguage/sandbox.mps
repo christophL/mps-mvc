@@ -13,7 +13,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="iwfp" modelUID="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" version="-1" implicit="yes" />
-  <import index="o3mj" modelUID="r:438c3daa-2186-4ada-aab0-4b508e05167b(ModelLanguage.structure)" version="-1" implicit="yes" />
+  <import index="o3mj" modelUID="r:438c3daa-2186-4ada-aab0-4b508e05167b(ModelLanguage.structure)" version="0" implicit="yes" />
   <root type="twbs.Controller" typeId="twbs.2276588493216942989" id="2276588493217449181" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Hugo" />
     <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="6661013270441832697" nodeInfo="ng">
@@ -34,25 +34,12 @@
           </node>
         </node>
       </node>
-      <node role="statements" roleId="twbs.1068580123135" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6661013270441868367" nodeInfo="nn">
-        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6661013270441871108" nodeInfo="nn">
-          <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="6661013270441868366" nodeInfo="ng">
-            <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="4416571845571311478" resolveInfo="Test" />
-          </node>
-          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6661013270441882186" nodeInfo="nn">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dbrf.~JLabel%dsetText(java%dlang%dString)%cvoid" resolveInfo="setText" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6661013270441882230" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="blub" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="1918530708907805172" nodeInfo="ng">
         <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1918530708907806732" nodeInfo="ng">
           <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="Test2" />
         </node>
-        <node role="passedObject" roleId="twbs.3094527505517487933" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="6651993402234799804" nodeInfo="ng">
-          <link role="entity" roleId="o3mj.6651993402234270207" targetNodeId="3094527505517053928" resolveInfo="testPerson" />
+        <node role="passedObject" roleId="twbs.3094527505517487933" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="7717441781235704789" nodeInfo="ng">
+          <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="7717441781235703866" resolveInfo="c" />
         </node>
       </node>
     </node>
@@ -145,6 +132,11 @@
       <property name="name" nameId="tpck.1169194664001" value="testPerson" />
       <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="7802003730805857809" resolveInfo="Person" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520380497" nodeInfo="in" />
+    </node>
+    <node role="declarations" roleId="twbs.7717441781231342378" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="7717441781235703866" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="c" />
+      <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="2654886405483122740" resolveInfo="Car" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.Type" typeId="tpee.1068431790189" id="7717441781235703867" nodeInfo="in" />
     </node>
   </root>
   <root type="twbs.Navigation" typeId="twbs.2276588493216905898" id="2276588493217458932" nodeInfo="ng">

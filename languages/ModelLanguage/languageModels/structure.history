@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="o3mj" modelUID="r:438c3daa-2186-4ada-aab0-4b508e05167b(ModelLanguage.structure)" version="-1" />
+    </dependencies>
+    <rename id="o3mj.6651993402234270207" type="REFERENCE" from="entity" to="entityReference" />
+  </StructureModification>
+</history>
+
