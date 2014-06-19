@@ -51,6 +51,9 @@
         <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1918530708907806732" nodeInfo="ng">
           <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="Test2" />
         </node>
+        <node role="passedObject" roleId="twbs.3094527505517487933" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="6651993402234799804" nodeInfo="ng">
+          <link role="entity" roleId="o3mj.6651993402234270207" targetNodeId="3094527505517053928" resolveInfo="testPerson" />
+        </node>
       </node>
     </node>
     <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="6793471093999816584" nodeInfo="ng">
@@ -139,7 +142,7 @@
       </node>
     </node>
     <node role="passedObject" roleId="twbs.3094527505515266469" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="3094527505517053928" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="person" />
+      <property name="name" nameId="tpck.1169194664001" value="testPerson" />
       <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="7802003730805857809" resolveInfo="Person" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520380497" nodeInfo="in" />
     </node>

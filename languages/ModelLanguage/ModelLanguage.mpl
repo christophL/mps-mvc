@@ -29,7 +29,11 @@
     </generator>
   </generators>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
+  </dependencies>
   <usedLanguages>
+    <usedLanguage>5b39faf1-15ef-454c-9e25-5c13006ed272(ControllerLanguage)</usedLanguage>
     <usedLanguage>cf953328-5115-4203-9867-d4f40ffc72a0(ModelLanguage)</usedLanguage>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
   </usedLanguages>
