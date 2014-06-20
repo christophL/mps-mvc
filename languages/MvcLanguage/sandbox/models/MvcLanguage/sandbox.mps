@@ -8,14 +8,23 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="dbrf" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
+  <import index="gsmj" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing.table(JDK/javax.swing.table@java_stub)" version="-1" />
+  <import index="6r6n" modelUID="r:0b806447-ae0d-4393-999a-462c6c7fb3e7(MvcLanguage.sandbox)" version="-1" />
   <import index="twbs" modelUID="r:e10dc791-273c-40da-9dfd-29049f48bba7(ControllerLanguage.structure)" version="4" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="iwfp" modelUID="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" version="-1" implicit="yes" />
-  <import index="o3mj" modelUID="r:438c3daa-2186-4ada-aab0-4b508e05167b(ModelLanguage.structure)" version="0" implicit="yes" />
+  <import index="o3mj" modelUID="r:438c3daa-2186-4ada-aab0-4b508e05167b(ModelLanguage.structure)" version="1" implicit="yes" />
   <root type="twbs.Controller" typeId="twbs.2276588493216942989" id="2276588493217449181" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Hugo" />
+    <node role="declarations" roleId="twbs.7717441781231342378" type="o3mj.EntityVariableDeclaration" typeId="o3mj.5727011447453135630" id="4880943577478954172" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="varCar" />
+      <link role="entity" roleId="o3mj.4880943577479384075" targetNodeId="2654886405483122740" resolveInfo="Car" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4880943577478954990" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2654886405483122740" resolveInfo="Car" />
+      </node>
+    </node>
     <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="6661013270441832697" nodeInfo="ng">
       <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="6661013270441837865" nodeInfo="ng">
         <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="4416571845571311487" resolveInfo="button1" />
@@ -38,8 +47,8 @@
         <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1918530708907806732" nodeInfo="ng">
           <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="Test2" />
         </node>
-        <node role="passedObject" roleId="twbs.3094527505517487933" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="7717441781235704789" nodeInfo="ng">
-          <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="7717441781235703866" resolveInfo="c" />
+        <node role="passedObject" roleId="twbs.3094527505517487933" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="4880943577478955245" nodeInfo="ng">
+          <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="4880943577478954172" resolveInfo="varCar" />
         </node>
       </node>
     </node>
@@ -128,15 +137,12 @@
         </node>
       </node>
     </node>
-    <node role="passedObject" roleId="twbs.3094527505515266469" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="3094527505517053928" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="testPerson" />
-      <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="7802003730805857809" resolveInfo="Person" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520380497" nodeInfo="in" />
-    </node>
-    <node role="declarations" roleId="twbs.7717441781231342378" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="7717441781235703866" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="c" />
-      <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="2654886405483122740" resolveInfo="Car" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.Type" typeId="tpee.1068431790189" id="7717441781235703867" nodeInfo="in" />
+    <node role="passedObject" roleId="twbs.3094527505515266469" type="o3mj.EntityVariableDeclaration" typeId="o3mj.5727011447453135630" id="4880943577478953211" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="passedPerson" />
+      <link role="entity" roleId="o3mj.4880943577479384075" targetNodeId="7802003730805857809" resolveInfo="Person" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4880943577478955044" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7802003730805857809" resolveInfo="Person" />
+      </node>
     </node>
   </root>
   <root type="twbs.Navigation" typeId="twbs.2276588493216905898" id="2276588493217458932" nodeInfo="ng">
@@ -281,16 +287,13 @@
       </node>
     </node>
   </root>
-  <root type="o3mj.EntityManager" typeId="o3mj.5727011447453135750" id="7802003730805857714" nodeInfo="ng">
-    <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="7802003730806192567" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="person" />
-      <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="7802003730805857809" resolveInfo="Person" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520388111" nodeInfo="in" />
+  <root type="o3mj.EntityManager" typeId="o3mj.5727011447453135750" id="7802003730805857714" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="EntityManager" />
+    <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.4880943577476899225" id="4880943577476986157" nodeInfo="ng">
+      <link role="entity" roleId="o3mj.4880943577476900599" targetNodeId="7802003730805857809" resolveInfo="Person" />
     </node>
-    <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.5727011447453135630" id="2654886405483122994" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="car" />
-      <link role="entity" roleId="o3mj.5727011447453135740" targetNodeId="2654886405483122740" resolveInfo="Car" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3094527505520388117" nodeInfo="in" />
+    <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.4880943577476899225" id="4880943577476986159" nodeInfo="ng">
+      <link role="entity" roleId="o3mj.4880943577476900599" targetNodeId="2654886405483122740" resolveInfo="Car" />
     </node>
   </root>
   <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="7802003730805857809" nodeInfo="ig">

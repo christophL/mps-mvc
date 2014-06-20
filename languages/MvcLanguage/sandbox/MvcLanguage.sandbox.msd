@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">cf953328-5115-4203-9867-d4f40ffc72a0(ModelLanguage)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>5b39faf1-15ef-454c-9e25-5c13006ed272(ControllerLanguage)</usedLanguage>
