@@ -16,40 +16,52 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="iwfp" modelUID="r:5d908254-6879-4796-b07d-b7ce4a5820b9(ViewLanguage.structure)" version="-1" implicit="yes" />
   <import index="o3mj" modelUID="r:438c3daa-2186-4ada-aab0-4b508e05167b(ModelLanguage.structure)" version="1" implicit="yes" />
+  <import index="oj8w" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing.text(JDK/javax.swing.text@java_stub)" version="-1" implicit="yes" />
   <root type="twbs.Controller" typeId="twbs.2276588493216942989" id="2276588493217449181" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Hugo" />
+    <property name="name" nameId="tpck.1169194664001" value="ListController" />
+    <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="1944692906242625249" nodeInfo="ng">
+      <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906242626126" nodeInfo="ng">
+        <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="4416571845571311487" resolveInfo="buttonAdd" />
+      </node>
+      <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="1944692906242648654" nodeInfo="ng">
+        <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1944692906242648877" nodeInfo="ng">
+          <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="PersonView" />
+        </node>
+      </node>
+    </node>
+    <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="1944692906243154525" nodeInfo="ng">
+      <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906243155405" nodeInfo="ng">
+        <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242624616" resolveInfo="buttonEdit" />
+      </node>
+      <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="1944692906243155436" nodeInfo="ng">
+        <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1944692906243155438" nodeInfo="ng">
+          <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="PersonView" />
+        </node>
+        <node role="passedObject" roleId="twbs.3094527505517487933" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243161776" nodeInfo="ng">
+          <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="4880943577478953211" resolveInfo="passedPerson" />
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.1068580123135" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906243155447" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1944692906243155478" nodeInfo="nn">
+          <node role="rValue" roleId="tpee.1068498886297" type="twbs.TableSelection" typeId="twbs.1944692906242653541" id="1944692906243155511" nodeInfo="ng">
+            <node role="table" roleId="twbs.1944692906242653617" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906243155539" nodeInfo="ng">
+              <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="7455858202475911730" resolveInfo="table1" />
+            </node>
+            <node role="entity" roleId="twbs.1944692906242653644" type="o3mj.EntityReference" typeId="o3mj.4880943577476899225" id="1944692906243155575" nodeInfo="ng">
+              <link role="entity" roleId="o3mj.4880943577476900599" targetNodeId="7802003730805857809" resolveInfo="Person" />
+            </node>
+          </node>
+          <node role="lValue" roleId="tpee.1068498886295" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243155446" nodeInfo="ng">
+            <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="4880943577478953211" resolveInfo="passedPerson" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="declarations" roleId="twbs.7717441781231342378" type="o3mj.EntityVariableDeclaration" typeId="o3mj.5727011447453135630" id="4880943577478954172" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="varCar" />
       <link role="entity" roleId="o3mj.4880943577479384075" targetNodeId="2654886405483122740" resolveInfo="Car" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4880943577478954990" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2654886405483122740" resolveInfo="Car" />
-      </node>
-    </node>
-    <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="6661013270441832697" nodeInfo="ng">
-      <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="6661013270441837865" nodeInfo="ng">
-        <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="4416571845571311487" resolveInfo="button1" />
-      </node>
-      <node role="statements" roleId="twbs.1068580123135" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6661013270441853372" nodeInfo="nn">
-        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6661013270441855175" nodeInfo="nn">
-          <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6661013270441853371" nodeInfo="nn">
-            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
-          </node>
-          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6661013270441858084" nodeInfo="nn">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6661013270441858123" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="clicked button" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="1918530708907805172" nodeInfo="ng">
-        <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1918530708907806732" nodeInfo="ng">
-          <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="Test2" />
-        </node>
-        <node role="passedObject" roleId="twbs.3094527505517487933" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="4880943577478955245" nodeInfo="ng">
-          <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="4880943577478954172" resolveInfo="varCar" />
-        </node>
       </node>
     </node>
     <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="6793471093999816584" nodeInfo="ng">
@@ -70,18 +82,28 @@
           </node>
         </node>
       </node>
-      <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="7565410853837535172" nodeInfo="ng">
-        <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="7565410853837535727" nodeInfo="ng">
-          <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="Test2" />
-        </node>
-      </node>
     </node>
     <node role="view" roleId="twbs.583709760333088690" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="8089774339945325267" nodeInfo="ng">
-      <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8612243370792258091" resolveInfo="TestView" />
+      <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8612243370792258091" resolveInfo="ListView" />
     </node>
     <node role="init" roleId="twbs.7565410853836511527" type="twbs.Init" typeId="twbs.7565410853836437377" id="7565410853837867439" nodeInfo="ng">
       <node role="statements" roleId="twbs.7565410853836437432" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="7565410853837966034" nodeInfo="nn">
         <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="7565410853837966036" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906241400807" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906241402518" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906241400806" nodeInfo="ng">
+                <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="7455858202475911730" resolveInfo="table1" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906241432468" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dbrf.~JTable%dsetModel(javax%dswing%dtable%dTableModel)%cvoid" resolveInfo="setModel" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="o3mj.TableModelExpression" typeId="o3mj.1944692906241317062" id="1944692906241435276" nodeInfo="ng">
+                  <node role="entity" roleId="o3mj.1944692906241317106" type="o3mj.EntityReference" typeId="o3mj.4880943577476899225" id="1944692906241435277" nodeInfo="ng">
+                    <link role="entity" roleId="o3mj.4880943577476900599" targetNodeId="7802003730805857809" resolveInfo="Person" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="7565410853837868058" nodeInfo="nn">
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7565410853837868059" nodeInfo="nr">
               <property name="name" nameId="tpck.1169194664001" value="group1" />
@@ -148,14 +170,14 @@
   <root type="twbs.Navigation" typeId="twbs.2276588493216905898" id="2276588493217458932" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestNavigation" />
     <node role="controllers" roleId="twbs.2276588493217203328" type="twbs.ControllerReference" typeId="twbs.2276588493217203232" id="2276588493217458933" nodeInfo="ng">
-      <link role="controller" roleId="twbs.2276588493217203308" targetNodeId="2276588493217449181" resolveInfo="Hugo" />
+      <link role="controller" roleId="twbs.2276588493217203308" targetNodeId="2276588493217449181" resolveInfo="ListController" />
     </node>
     <node role="controllers" roleId="twbs.2276588493217203328" type="twbs.ControllerReference" typeId="twbs.2276588493217203232" id="1400871569926476946" nodeInfo="ng">
-      <link role="controller" roleId="twbs.2276588493217203308" targetNodeId="8089774339945914351" resolveInfo="Hansjoerg" />
+      <link role="controller" roleId="twbs.2276588493217203308" targetNodeId="8089774339945914351" resolveInfo="PersonController" />
     </node>
   </root>
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8612243370792258091" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="TestView" />
+    <property name="name" nameId="tpck.1169194664001" value="ListView" />
     <property name="width" nameId="iwfp.7722833324906570910" value="505" />
     <property name="height" nameId="iwfp.7722833324906570912" value="336" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8612243370792258146" nodeInfo="ng">
@@ -218,24 +240,20 @@
       </node>
     </node>
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8612243370792258157" nodeInfo="ng">
-      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845571311478" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="Test" />
-        <property name="text" nameId="iwfp.4416571845570931637" value="Click" />
-      </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Button" typeId="iwfp.4416571845570931433" id="4416571845571311487" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="button1" />
-        <property name="text" nameId="iwfp.4416571845570931634" value="here" />
+        <property name="name" nameId="tpck.1169194664001" value="buttonAdd" />
+        <property name="text" nameId="iwfp.4416571845570931634" value="Add Person" />
       </node>
-      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="7455858202469626321" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="Test2" />
-        <property name="text" nameId="iwfp.4416571845570931637" value="if ready." />
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Button" typeId="iwfp.4416571845570931433" id="1944692906242624616" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="buttonEdit" />
+        <property name="text" nameId="iwfp.4416571845570931634" value="Edit Person" />
       </node>
     </node>
   </root>
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8089774339945446412" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Test2" />
+    <property name="name" nameId="tpck.1169194664001" value="PersonView" />
     <property name="width" nameId="iwfp.7722833324906570910" value="272" />
-    <property name="height" nameId="iwfp.7722833324906570912" value="49" />
+    <property name="height" nameId="iwfp.7722833324906570912" value="184" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8089774339945446440" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="8089774339945446448" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="hello" />
@@ -246,11 +264,126 @@
         <property name="text" nameId="iwfp.5291332005011366851" value="radio1" />
       </node>
     </node>
+    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="1944692906242626239" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="1944692906242626244" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="lName" />
+        <property name="text" nameId="iwfp.4416571845570931637" value="Name:" />
+      </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.TextField" typeId="iwfp.7722833324906565210" id="1944692906242626246" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="tName" />
+        <property name="text" nameId="iwfp.7722833324906570908" value=" " />
+      </node>
+    </node>
+    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="1944692906242626357" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="1944692906242626365" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="lAddress" />
+        <property name="text" nameId="iwfp.4416571845570931637" value="Address:" />
+      </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.TextField" typeId="iwfp.7722833324906565210" id="1944692906242626367" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="tAddress" />
+        <property name="text" nameId="iwfp.7722833324906570908" value=" " />
+      </node>
+    </node>
+    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="1944692906242626592" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="1944692906242626605" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="lAge" />
+        <property name="text" nameId="iwfp.4416571845570931637" value="Age:" />
+      </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.TextField" typeId="iwfp.7722833324906565210" id="1944692906242626611" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="tAge" />
+        <property name="text" nameId="iwfp.7722833324906570908" value=" " />
+      </node>
+    </node>
+    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="1944692906242734522" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Button" typeId="iwfp.4416571845570931433" id="1944692906242734540" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="bSave" />
+        <property name="text" nameId="iwfp.4416571845570931634" value="Save Changes" />
+      </node>
+    </node>
   </root>
   <root type="twbs.Controller" typeId="twbs.2276588493216942989" id="8089774339945914351" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Hansjoerg" />
+    <property name="name" nameId="tpck.1169194664001" value="PersonController" />
+    <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="1944692906242742933" nodeInfo="ng">
+      <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906242743459" nodeInfo="ng">
+        <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242734540" resolveInfo="bSave" />
+      </node>
+      <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="1944692906242743467" nodeInfo="ng">
+        <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="1944692906242743469" nodeInfo="ng">
+          <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8612243370792258091" resolveInfo="ListView" />
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.1068580123135" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906242763397" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1944692906242879666" nodeInfo="nn">
+          <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906242880449" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906242879703" nodeInfo="ng">
+              <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242626367" resolveInfo="tAddress" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906242887510" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oj8w.~JTextComponent%dgetText()%cjava%dlang%dString" resolveInfo="getText" />
+            </node>
+          </node>
+          <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906242878918" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906242763396" nodeInfo="ng">
+              <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="1944692906242879652" nodeInfo="ng">
+              <link role="field" roleId="o3mj.1944692906242488738" targetNodeId="1944692906242165910" resolveInfo="address" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.1068580123135" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906243020511" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1944692906243021367" nodeInfo="nn">
+          <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243020618" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243020510" nodeInfo="ng">
+              <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="1944692906243021356" nodeInfo="ng">
+              <link role="field" roleId="o3mj.1944692906242488738" targetNodeId="1944692906242165894" resolveInfo="age" />
+            </node>
+          </node>
+          <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1944692906243033596" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Integer%dparseInt(java%dlang%dString)%cint" resolveInfo="parseInt" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243036340" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906243033620" nodeInfo="ng">
+                <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242626611" resolveInfo="tAge" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906243043418" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oj8w.~JTextComponent%dgetText()%cjava%dlang%dString" resolveInfo="getText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.1068580123135" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906243043823" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1944692906243044764" nodeInfo="nn">
+          <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243045554" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906243044809" nodeInfo="ng">
+              <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242626246" resolveInfo="tName" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906243052615" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oj8w.~JTextComponent%dgetText()%cjava%dlang%dString" resolveInfo="getText" />
+            </node>
+          </node>
+          <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243044011" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243043822" nodeInfo="ng">
+              <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="1944692906243044753" nodeInfo="ng">
+              <link role="field" roleId="o3mj.1944692906242488738" targetNodeId="1944692906242165880" resolveInfo="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.1068580123135" type="twbs.SaveStatement" typeId="twbs.1944692906243052884" id="1944692906243126836" nodeInfo="ng">
+        <node role="toSave" roleId="twbs.1944692906243052963" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243127052" nodeInfo="ng">
+          <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+        </node>
+      </node>
+    </node>
     <node role="view" roleId="twbs.583709760333088690" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="8089774339945914352" nodeInfo="ng">
-      <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="Test2" />
+      <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8089774339945446412" resolveInfo="PersonView" />
     </node>
     <node role="init" roleId="twbs.7565410853836511527" type="twbs.Init" typeId="twbs.7565410853836437377" id="7565410853837693402" nodeInfo="ng">
       <node role="statements" roleId="twbs.7565410853836437432" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7565410853837750816" nodeInfo="nn">
@@ -262,6 +395,60 @@
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dbrf.~JLabel%dsetText(java%dlang%dString)%cvoid" resolveInfo="setText" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7802003730805805828" nodeInfo="nn">
               <property name="value" nameId="tpee.1070475926801" value="&lt;html&gt;Hello World! (edited)&lt;/html&gt;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.7565410853836437432" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906243127759" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243129030" nodeInfo="nn">
+          <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906243127758" nodeInfo="ng">
+            <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242626367" resolveInfo="tAddress" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906243132577" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oj8w.~JTextComponent%dsetText(java%dlang%dString)%cvoid" resolveInfo="setText" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243132796" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243132644" nodeInfo="ng">
+                <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="1944692906243133635" nodeInfo="ng">
+                <link role="field" roleId="o3mj.1944692906242488738" targetNodeId="1944692906242165910" resolveInfo="address" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.7565410853836437432" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906243134386" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243135759" nodeInfo="nn">
+          <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906243134385" nodeInfo="ng">
+            <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242626611" resolveInfo="tAge" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906243139306" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oj8w.~JTextComponent%dsetText(java%dlang%dString)%cvoid" resolveInfo="setText" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243139525" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243139373" nodeInfo="ng">
+                <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="1944692906243140050" nodeInfo="ng">
+                <link role="field" roleId="o3mj.1944692906242488738" targetNodeId="1944692906242165894" resolveInfo="age" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statements" roleId="twbs.7565410853836437432" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906243140897" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243142315" nodeInfo="nn">
+          <node role="operand" roleId="tpee.1197027771414" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906243140896" nodeInfo="ng">
+            <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="1944692906242626246" resolveInfo="tName" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906243145862" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oj8w.~JTextComponent%dsetText(java%dlang%dString)%cvoid" resolveInfo="setText" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243146081" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243145929" nodeInfo="ng">
+                <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="1944692906243146998" nodeInfo="ng">
+                <link role="field" roleId="o3mj.1944692906242488738" targetNodeId="1944692906242165880" resolveInfo="name" />
+              </node>
             </node>
           </node>
         </node>
@@ -286,9 +473,15 @@
         </node>
       </node>
     </node>
+    <node role="passedObject" roleId="twbs.3094527505515266469" type="o3mj.EntityVariableDeclaration" typeId="o3mj.5727011447453135630" id="1944692906242743597" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="toDisplay" />
+      <link role="entity" roleId="o3mj.4880943577479384075" targetNodeId="7802003730805857809" resolveInfo="Person" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1944692906242744137" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7802003730805857809" resolveInfo="Person" />
+      </node>
+    </node>
   </root>
-  <root type="o3mj.EntityManager" typeId="o3mj.5727011447453135750" id="7802003730805857714" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="EntityManager" />
+  <root type="o3mj.EntityManager" typeId="o3mj.5727011447453135750" id="7802003730805857714" nodeInfo="ng">
     <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.4880943577476899225" id="4880943577476986157" nodeInfo="ng">
       <link role="entity" roleId="o3mj.4880943577476900599" targetNodeId="7802003730805857809" resolveInfo="Person" />
     </node>
@@ -298,38 +491,32 @@
   </root>
   <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="7802003730805857809" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Person" />
-    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7802003730805857974" nodeInfo="ig">
+    <node role="fields" roleId="o3mj.7802003730805813103" type="o3mj.EntityField" typeId="o3mj.1944692906242077655" id="1944692906242165880" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="name" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="7802003730805857975" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="7802003730805857984" nodeInfo="in" />
+      <node role="type" roleId="o3mj.1944692906242077724" type="tpee.StringType" typeId="tpee.1225271177708" id="1944692906242165891" nodeInfo="in" />
     </node>
-    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7802003730805858007" nodeInfo="ig">
+    <node role="fields" roleId="o3mj.7802003730805813103" type="o3mj.EntityField" typeId="o3mj.1944692906242077655" id="1944692906242165894" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="age" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="7802003730805858008" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="7802003730805858020" nodeInfo="in" />
+      <node role="type" roleId="o3mj.1944692906242077724" type="tpee.IntegerType" typeId="tpee.1070534370425" id="1944692906242165907" nodeInfo="in" />
     </node>
-    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7802003730805858039" nodeInfo="ig">
+    <node role="fields" roleId="o3mj.7802003730805813103" type="o3mj.EntityField" typeId="o3mj.1944692906242077655" id="1944692906242165910" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="address" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="7802003730805858040" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="7802003730805858055" nodeInfo="in" />
+      <node role="type" roleId="o3mj.1944692906242077724" type="tpee.StringType" typeId="tpee.1225271177708" id="1944692906242165925" nodeInfo="in" />
     </node>
   </root>
   <root type="o3mj.Entity" typeId="o3mj.5727011447453097992" id="2654886405483122740" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Car" />
-    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2654886405483122768" nodeInfo="ig">
+    <node role="fields" roleId="o3mj.7802003730805813103" type="o3mj.EntityField" typeId="o3mj.1944692906242077655" id="1944692906242166098" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="brand" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2654886405483122769" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2654886405483122778" nodeInfo="in" />
+      <node role="type" roleId="o3mj.1944692906242077724" type="tpee.StringType" typeId="tpee.1225271177708" id="1944692906242166109" nodeInfo="in" />
     </node>
-    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2654886405483122805" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="builtIn" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2654886405483122806" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="2654886405483122818" nodeInfo="in" />
+    <node role="fields" roleId="o3mj.7802003730805813103" type="o3mj.EntityField" typeId="o3mj.1944692906242077655" id="1944692906242166112" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="type" />
+      <node role="type" roleId="o3mj.1944692906242077724" type="tpee.StringType" typeId="tpee.1225271177708" id="1944692906242166125" nodeInfo="in" />
     </node>
-    <node role="fields" roleId="o3mj.7802003730805813103" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2654886405483122853" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="ps" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2654886405483122854" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="2654886405483122869" nodeInfo="in" />
+    <node role="fields" roleId="o3mj.7802003730805813103" type="o3mj.EntityField" typeId="o3mj.1944692906242077655" id="1944692906242166128" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="hp" />
+      <node role="type" roleId="o3mj.1944692906242077724" type="tpee.IntegerType" typeId="tpee.1070534370425" id="1944692906242166143" nodeInfo="in" />
     </node>
   </root>
 </model>
