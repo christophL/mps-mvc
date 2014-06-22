@@ -87,6 +87,7 @@
       <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8612243370792258091" resolveInfo="ListView" />
     </node>
     <node role="init" roleId="twbs.7565410853836511527" type="twbs.Init" typeId="twbs.7565410853836437377" id="7565410853837867439" nodeInfo="ng">
+      <node role="statements" roleId="twbs.7565410853836437432" type="tpee.Statement" typeId="tpee.1068580123157" id="3570699848405905964" nodeInfo="nn" />
       <node role="statements" roleId="twbs.7565410853836437432" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="7565410853837966034" nodeInfo="nn">
         <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="7565410853837966036" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1944692906241400807" nodeInfo="nn">
@@ -189,6 +190,7 @@
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="7455858202475911762" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="5776600394078536708" nodeInfo="ng">
         <property name="text" nameId="iwfp.4416571845570931637" value="&lt;img src=&quot;http://s1.postimg.org/fhezzipp7/man.png&quot;&gt;" />
+        <property name="name" nameId="tpck.1169194664001" value="persons" />
       </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Table" typeId="iwfp.5291332005011366876" id="7455858202475911730" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="table1" />
