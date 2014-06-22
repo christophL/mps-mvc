@@ -178,23 +178,22 @@
   </root>
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8612243370792258091" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ListView" />
-    <property name="width" nameId="iwfp.7722833324906570910" value="505" />
+    <property name="width" nameId="iwfp.7722833324906570910" value="546" />
     <property name="height" nameId="iwfp.7722833324906570912" value="336" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8612243370792258146" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845572276368" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="headline" />
-        <property name="text" nameId="iwfp.4416571845570931637" value="&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Welcome&lt;/font&gt;&lt;/h1&gt;" />
+        <property name="text" nameId="iwfp.4416571845570931637" value="&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Welcome to the List!&lt;/font&gt;&lt;/h1&gt;" />
       </node>
     </node>
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="7455858202475911762" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="5776600394078536708" nodeInfo="ng">
+        <property name="text" nameId="iwfp.4416571845570931637" value="&lt;img src=&quot;http://s1.postimg.org/fhezzipp7/man.png&quot;&gt;" />
+      </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Table" typeId="iwfp.5291332005011366876" id="7455858202475911730" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="table1" />
         <property name="width" nameId="iwfp.5291332005011366877" value="400" />
         <property name="height" nameId="iwfp.5291332005011366879" value="150" />
-      </node>
-      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845570979596" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="L1" />
-        <property name="text" nameId="iwfp.4416571845570931637" value="&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/55px-Wave.svg.png&quot;&gt;" />
       </node>
     </node>
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="7455858202468443514" nodeInfo="ng">
@@ -252,8 +251,18 @@
   </root>
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8089774339945446412" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="PersonView" />
-    <property name="width" nameId="iwfp.7722833324906570910" value="272" />
-    <property name="height" nameId="iwfp.7722833324906570912" value="184" />
+    <property name="width" nameId="iwfp.7722833324906570910" value="274" />
+    <property name="height" nameId="iwfp.7722833324906570912" value="263" />
+    <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="5776600394078530404" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="5776600394078530448" nodeInfo="ng">
+        <property name="text" nameId="iwfp.4416571845570931637" value="&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/48px-User_icon_2.svg.png&quot;&gt;" />
+        <property name="name" nameId="tpck.1169194664001" value="Icon" />
+      </node>
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="5776600394078530446" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Heading" />
+        <property name="text" nameId="iwfp.4416571845570931637" value="&lt;h1&gt;Person&lt;/h1&gt;" />
+      </node>
+    </node>
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8089774339945446440" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="8089774339945446448" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="hello" />
@@ -295,6 +304,10 @@
       </node>
     </node>
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="1944692906242734522" nodeInfo="ng">
+      <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Button" typeId="iwfp.4416571845570931433" id="5776600394078531174" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="bCancel" />
+        <property name="text" nameId="iwfp.4416571845570931634" value="Cancel" />
+      </node>
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Button" typeId="iwfp.4416571845570931433" id="1944692906242734540" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="bSave" />
         <property name="text" nameId="iwfp.4416571845570931634" value="Save Changes" />
@@ -379,6 +392,16 @@
       <node role="statements" roleId="twbs.1068580123135" type="twbs.SaveStatement" typeId="twbs.1944692906243052884" id="1944692906243126836" nodeInfo="ng">
         <node role="toSave" roleId="twbs.1944692906243052963" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243127052" nodeInfo="ng">
           <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
+        </node>
+      </node>
+    </node>
+    <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="5776600394078531989" nodeInfo="ng">
+      <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="5776600394078533031" nodeInfo="ng">
+        <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="5776600394078531174" resolveInfo="bCancel" />
+      </node>
+      <node role="nextView" roleId="twbs.1918530708907067467" type="twbs.NextView" typeId="twbs.1918530708907418024" id="5776600394078533039" nodeInfo="ng">
+        <node role="view" roleId="twbs.1918530708907418164" type="iwfp.ViewReference" typeId="iwfp.583709760333022150" id="5776600394078533041" nodeInfo="ng">
+          <link role="view" roleId="iwfp.583709760333022231" targetNodeId="8612243370792258091" resolveInfo="ListView" />
         </node>
       </node>
     </node>
@@ -481,7 +504,7 @@
       </node>
     </node>
   </root>
-  <root type="o3mj.EntityManager" typeId="o3mj.5727011447453135750" id="7802003730805857714" nodeInfo="ng">
+  <root type="o3mj.EntityManager" typeId="o3mj.5727011447453135750" id="7802003730805857714" nodeInfo="ig">
     <node role="entities" roleId="o3mj.5727011447453135785" type="o3mj.EntityReference" typeId="o3mj.4880943577476899225" id="4880943577476986157" nodeInfo="ng">
       <link role="entity" roleId="o3mj.4880943577476900599" targetNodeId="7802003730805857809" resolveInfo="Person" />
     </node>
