@@ -302,6 +302,15 @@
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="7802003730806261422" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="map_Entity" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="3570699848405438086" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="serialVersionUID" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3570699848405403714" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.LongType" typeId="tpee.1068581242867" id="3570699848405437454" nodeInfo="in" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.LongLiteral" typeId="tpee.4269842503726207156" id="3570699848405449777" nodeInfo="nn">
+        <property name="value" nameId="tpee.4269842503726207157" value="1L" />
+      </node>
+    </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7802003730806290517" nodeInfo="igu">
       <property name="isVolatile" nameId="tpee.1240249534625" value="false" />
       <property name="isTransient" nameId="tpee.8606350594693632173" value="false" />

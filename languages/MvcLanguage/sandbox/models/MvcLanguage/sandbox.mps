@@ -332,11 +332,11 @@
             </node>
           </node>
         </node>
-        <node role="condition" roleId="tpee.1068580123160" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="3570699848399996142" nodeInfo="nn">
-          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3570699848399996227" nodeInfo="nn" />
-          <node role="leftExpression" roleId="tpee.1081773367580" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="3570699848399996092" nodeInfo="ng">
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="3570699848405525490" nodeInfo="nn">
+          <node role="leftExpression" roleId="tpee.1081773367580" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="3570699848405525493" nodeInfo="ng">
             <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
           </node>
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3570699848405525492" nodeInfo="nn" />
         </node>
       </node>
       <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="1944692906242743459" nodeInfo="ng">
