@@ -473,15 +473,14 @@
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1944692906243139306" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oj8w.~JTextComponent%dsetText(java%dlang%dString)%cvoid" resolveInfo="setText" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3570699848399995212" nodeInfo="nn">
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3570699848399995376" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value=" " />
-                  </node>
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1944692906243139525" nodeInfo="nn">
-                    <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="1944692906243139373" nodeInfo="ng">
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8056456091247871899" nodeInfo="nn">
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~String" resolveInfo="String" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dvalueOf(java%dlang%dObject)%cjava%dlang%dString" resolveInfo="valueOf" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8056456091247872743" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="o3mj.EntityVariableReference" typeId="o3mj.6651993402234264451" id="8056456091247872097" nodeInfo="ng">
                       <link role="entityReference" roleId="o3mj.6651993402234270207" targetNodeId="1944692906242743597" resolveInfo="toDisplay" />
                     </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="1944692906243140050" nodeInfo="ng">
+                    <node role="operation" roleId="tpee.1197027833540" type="o3mj.EntityFieldReference" typeId="o3mj.1944692906242488669" id="8056456091247873350" nodeInfo="ng">
                       <link role="field" roleId="o3mj.1944692906242488738" targetNodeId="1944692906242165894" resolveInfo="age" />
                     </node>
                   </node>
