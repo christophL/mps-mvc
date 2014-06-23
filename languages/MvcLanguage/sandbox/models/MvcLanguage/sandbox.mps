@@ -57,13 +57,6 @@
         </node>
       </node>
     </node>
-    <node role="declarations" roleId="twbs.7717441781231342378" type="o3mj.EntityVariableDeclaration" typeId="o3mj.5727011447453135630" id="4880943577478954172" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="varCar" />
-      <link role="entity" roleId="o3mj.4880943577479384075" targetNodeId="2654886405483122740" resolveInfo="Car" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4880943577478954990" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2654886405483122740" resolveInfo="Car" />
-      </node>
-    </node>
     <node role="listeners" roleId="twbs.8089774339945138338" type="twbs.OnClickListener" typeId="twbs.8089774339944497577" id="6793471093999816584" nodeInfo="ng">
       <node role="observed" roleId="twbs.8089774339945639268" type="iwfp.ViewElementReference" typeId="iwfp.8089774339944508130" id="6793471093999819486" nodeInfo="ng">
         <link role="viewElement" roleId="iwfp.8089774339944536430" targetNodeId="4416571845572276368" resolveInfo="headline" />
@@ -179,8 +172,8 @@
   </root>
   <root type="iwfp.View" typeId="iwfp.4416571845570931313" id="8612243370792258091" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ListView" />
-    <property name="width" nameId="iwfp.7722833324906570910" value="546" />
-    <property name="height" nameId="iwfp.7722833324906570912" value="336" />
+    <property name="width" nameId="iwfp.7722833324906570910" value="545" />
+    <property name="height" nameId="iwfp.7722833324906570912" value="427" />
     <node role="rows" roleId="iwfp.4416571845570931760" type="iwfp.ViewRow" typeId="iwfp.4416571845570931640" id="8612243370792258146" nodeInfo="ng">
       <node role="elements" roleId="iwfp.4416571845570931757" type="iwfp.Label" typeId="iwfp.4416571845570931568" id="4416571845572276368" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="headline" />
